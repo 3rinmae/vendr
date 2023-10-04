@@ -3,7 +3,7 @@ import { snacksService } from "../services/SnacksService.js"
 
 export class SnacksController {
   constructor() {
-    console.log('snacks controller loaded')
+    // console.log('snacks controller loaded')
   }
 
   addSnackToCart(snack) {

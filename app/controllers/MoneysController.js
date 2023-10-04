@@ -8,7 +8,7 @@ function _drawMoney() {
 }
 export class MoneysController {
   constructor() {
-    console.log('does this work')
+    // console.log('does this work')
     AppState.on('money', _drawMoney)
   }
   addQuarter() {
