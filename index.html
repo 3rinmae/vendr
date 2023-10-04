@@ -46,12 +46,12 @@
     <!-- SECTION Money -->
     <section class="row">
       <div class="col-3">
-        <button class="btn btn-success" type="button">
+        <button class="btn btn-success" type="button" onclick="app.MoneysController.addQuarter()">
           <p class="fs-3">Add .25</p>
         </button>
       </div>
       <div class="col-6">
-        <p class="fs-3">Total Money: $0</p>
+        <p class="fs-3">Total Money: $<span id="totalMoney">0</span></p>
       </div>
     </section>
     <!-- !SECTION Money End -->
