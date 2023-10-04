@@ -14,6 +14,11 @@ class SnacksService {
     const foundSnack = AppState.snacks.find(Snack => Snack.name == snack)
     console.log('Snack found from AppState', foundSnack)
 
+    if (AppState.money < foundSnack.price) {
+      throw new Error('You do not have enough money to purchase this snack')
+    }
+    AppState.money -= foundSnack.price
+    console.log('total money', AppState.money)
   }
 }
 
