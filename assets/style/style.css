@@ -1,1 +1,13 @@
 /* BASIC STYLES HERE */
+.snackImg {
+  height: 20vh
+}
+
+.fontNabla {
+  font-family: 'Nabla';
+  font-size: 7em;
+}
+
+.fontRajdhani {
+  font-family: 'Rajdhani';
+}

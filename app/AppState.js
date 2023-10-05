@@ -16,8 +16,9 @@ class ObservableAppState extends EventEmitter {
 
     new Snack({ name: 'Banana', price: .25, imgUrl: 'https://images.unsplash.com/photo-1605666807892-8c11d020bede?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJhbmFuYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' }),
 
-    new Snack({ name: 'Mango', price: .75, imgUrl: 'https://images.unsplash.com/photo-1617926247067-9f6f71f91c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fG1hbmdvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' })
+    new Snack({ name: 'Mango', price: .75, imgUrl: 'https://images.unsplash.com/photo-1617926247067-9f6f71f91c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fG1hbmdvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60' }),
 
+    new Snack({ name: 'Orange', price: .50, imgUrl: 'https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2865&q=80' })
   ]
 
   money = 0
